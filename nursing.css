@@ -1,0 +1,1222 @@
+*{
+    margin:0;
+    top:0;
+    box-sizing: border-box;
+    padding: 0px;
+font-family: 'Roboto', sans-serif;
+scroll-behavior: smooth;
+
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.imgslide
+{
+    overflow-anchor: break-word;
+    flex-direction: row;
+left:0;
+flex-wrap: wrap;
+}
+.picside{
+    width:20%;
+    padding:20px;
+    display: flex;
+    height: 100%;
+
+    align-items: center;
+}
+.picside img{
+    width:160px;
+flex-wrap: wrap;
+
+
+}
+.st-btn{
+    background:rgb(0, 0, 0) !important;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:100px;
+    width: 100%;
+    position: absolute;
+flex-wrap: wrap;
+
+    overflow: hidden;
+    align-items: center;
+
+    padding-right: 20px;
+width: 100%;
+   background-size: 1em 1em;  
+    padding-top:15px;
+    padding-bottom:15px;
+}
+.gram{
+    display: flex;
+    border:0px solid  rgba(143, 232, 0, 0.655);
+    padding:7px;
+    width:30px;
+    height:30px;
+    align-items: center;
+    font-size: 25px;
+    transition: .3s ease-in-out;
+    justify-content: center;
+flex-wrap: wrap;
+
+    border-radius: 250px;
+    cursor:pointer;
+    color: rgba(143, 232, 0, 0.655);
+
+    filter:drop-shadow(0px 0px 0px  rgba(0, 0, 10, 0.455));
+  
+    box-shadow:
+    0px 0px 0px white,
+    0px 0px 0px white;
+ 
+   }
+  
+   
+  .gram:hover{
+    border-top:0px solid transparent;
+    height:60px;
+    background: linear-gradient(transparent,transparent,rgba(0, 0, 0, 0.655));
+    width:60px;
+    align-items: center;
+    box-shadow:
+    0px 0px 5px white,
+    0px 0px 5px white;
+    ;
+    filter:drop-shadow(0px 100px 0px rgba(143, 232, 0, 0));
+  }
+  .tiny{
+      display: flex;
+      font-size:15px;
+      height: 100px;
+      align-items: center;
+      color:grey;
+      letter-spacing: 2px;
+flex-wrap: wrap;
+
+      text-shadow: none;
+  }
+ 
+  #cruela{
+margin-top:50px;
+filter:drop-shadow(0px 0px 10px black) hue-rotate(345deg) saturate(120%);
+width:90%;
+height: 440px;
+flex-wrap: wrap;
+
+  }
+  .social{
+    display: flex;
+    padding-right:70px;
+    padding-left:70px;
+    justify-content: space-around;
+flex-wrap: wrap;
+
+    align-items: center;
+    width: 80%;
+
+    height: 100px;
+  }
+.head{
+    display:flex;
+    justify-content: center;
+    height:30px;
+    align-items: center;
+    background:white;
+    cursor:pointer;
+flex-wrap: wrap;
+
+    border-radius:100px;
+    width: 120px;
+    padding:5px;
+    transition:all .4s ease-in-out;
+    box-shadow:
+    inset 0px -0px 0px rgba(143, 232, 0, 0.655);
+
+
+}
+
+h2{
+    border-bottom:3px solid grey;
+}
+.active{
+    box-shadow:
+    inset 0px -200px 0px rgb(157, 255, 0)
+    ;
+}
+.aligned{
+    padding:40px;
+    background-color: whitesmoke;
+}
+.afterslide{
+    width: 100%;
+display: flex;
+
+align-items: center;
+justify-content: center;
+padding:20px;
+flex-direction: column;
+flex-wrap: wrap;
+
+background-color:#edfff2d6;
+}
+
+.initial{
+    height: 180px;
+width: 100%;
+
+display: flex;
+flex-wrap: wrap;
+
+align-items: center;
+justify-content: center;
+}
+.inithead{
+font-size: 40px;
+height: 100px;
+width:500px;
+flex-wrap: wrap;
+
+color:black;
+transform: rotateY(15deg);
+
+}
+.second{
+    width:70%;
+    height:150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+flex-wrap: wrap;
+
+
+    justify-content: space-evenly;
+}
+.s1{
+    min-width:200px;
+    border-radius:20px;
+    background:rgba(0, 133, 64, 0.655);
+
+    color:white;
+    padding:10px
+
+}
+.action{
+    display: flex;
+    height: 150px;
+    width:300px;
+    align-items: center;
+flex-wrap: wrap;
+
+    padding:10px;
+
+    justify-content: left;
+}
+.apply{
+    background:green;
+    color:white;
+flex-wrap: wrap;
+
+    border-radius: 30px;
+    padding:10px;
+    margin-top: 50px;
+    align-self: center;
+
+}
+.txt{
+    width:200px;
+    border-radius:20px;
+    color:grey;
+    padding:10px
+}
+.head:hover{
+    box-shadow:
+    inset 0px -200px 0px rgba(143, 232, 0, 0.655);
+}
+
+.menus{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.content{
+    display: flex;
+flex-wrap: wrap;
+left:0;
+  
+    flex-direction: column;
+}
+
+.search{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+flex-wrap: wrap;
+
+    justify-content: center;
+}
+#called{
+    display: flex;
+    color:rgba(143, 232, 0, 0.655);
+    width: 400px;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    background:white;
+flex-wrap: wrap;
+
+    height: 90%;
+    font-weight: 900;
+    border-radius: 0px 30px 30px 0px;
+    font-family:cursive;
+}
+.imgslide,.info1,.info2{
+    display:flex;
+    align-items: center;
+
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 20px;
+
+    text-align: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.landpage{
+flex-wrap: wrap;
+
+    background:white;
+}
+
+.info2{
+    flex-direction: row-reverse;
+}
+.scrollani{
+    opacity: 0;
+    transition:all .3s ease-in;
+
+}
+
+    .leftside{
+    display: flex;
+  
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    color:rgb(19, 20, 30);
+flex-wrap: wrap;
+
+    letter-spacing: 2px;
+    align-items: center;
+    font-size:60px;
+    width:50%;
+
+}
+
+.sons:hover{
+    transform: scale(1.03);
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.968);
+}
+    .sons{
+     transition: all .5s ease-in-out;
+
+    min-width: 230px;
+    overflow: hidden;
+    margin-top: 50px;
+    border-radius: 30px;
+    border:1px solid rgb(211, 211, 211);
+}
+.son1{
+    padding:10px;
+    display: flex;
+    justify-content:space-around;
+    
+    backdrop-filter: blur(.8rem);
+    flex-direction: row;
+    background:rgba(0, 0, 0, 0.837);
+    height:30%;
+    width: 100%;
+    border-radius: 10px;
+flex-wrap: wrap;
+
+
+}
+.hasslide{
+    background:rgba(0, 0, 0, 0.204);
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.testimonials,.ttext,.treview,.timage{
+    display: flex;
+    flex-direction: column;
+
+
+}.testimonials{
+
+    height:900px;
+    width: 100%;
+    overflow: hidden;
+    background-image:repeating-conic-gradient(
+    from 45deg,
+    rgba(0, 0, 0, 0.859) 50deg 70deg,
+    rgba(125, 255, 169, 0.859) 50deg 70deg),
+    url(nursing/logo.jfif);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%, 60% 40%;
+ 
+}
+.testify{
+    display: flex;
+    flex-direction: row;
+    width: 400%;
+    align-items: center;
+    background:none;
+    justify-content: left;
+    left:0;
+    height:100%;
+    animation:slides 25s forwards infinite;
+}
+@keyframes slides
+ {
+    15%{transform:translateX(0%)}
+    20%{transform:translateX(-25%)}
+    45%{transform:translateX(-25%)}
+    50%{transform:translateX(-50%)}
+    70%{transform:translateX(-50%)}
+    75%{transform:translateX(-75%)}
+    100%{transform:translateX(-75%)}
+    
+}
+.timage img{
+    width:100%;
+}
+    .timage{
+    height:200px;
+    width: 200px;
+    justify-content: center;
+    border-radius: 200px;
+    background-position: center;
+    align-items: center;
+    background-size: contain;
+    border:20px solid white;
+    box-shadow: 0px 0px 10px lightgrey;
+    overflow: hidden;
+}
+.treview{
+    align-items: center;
+    justify-content: center;
+    height:98%;
+
+    width: 100%;
+    flex-wrap: nowrap;
+    flex-direction: column;}
+
+.ttext{
+    text-align: center;
+    font-weight: 600;
+    margin-top: 100px;
+    width: 50%;
+    letter-spacing: 2px;
+    color:white;
+
+}
+
+.achild{
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(.8rem);
+    background:linear-gradient(135deg,white ,transparent,lightgrey);
+    height: 100%;
+    padding:20px;
+    border-radius: 10px;
+    width:69%;
+flex-wrap: wrap;
+
+    justify-content: center;
+}
+.bchild{
+    display: flex;
+    height: 100%;
+flex-wrap: wrap;
+
+    border-radius: 10px;
+    padding:20px;
+    width:30%;
+    align-items: center;
+    backdrop-filter: blur(.8rem);
+    background:linear-gradient(135deg,white ,transparent,lightgrey);
+    justify-content: center;
+}
+.son2{
+    display: flex;
+    height:39%;
+
+    border-radius: 10px;
+    width:100%;
+flex-wrap: wrap;
+color:white;
+
+font-weight: 600;
+
+    align-items: center;
+    justify-content: space-between;
+}
+    .son3{
+        padding:10px;
+color:white;
+
+        display: flex;
+        border-radius: 10px;
+flex-wrap: wrap;
+font-weight: 600;
+
+
+        
+    backdrop-filter: blur(.8rem);
+    background:linear-gradient(135deg,white ,transparent,lightgrey);
+    width: 100%;
+    height:30%;
+
+
+
+        align-items: center;
+        justify-content: space-evenly;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    background-image:repeating-conic-gradient(from 45deg,
+    rgba(0, 0, 0, 0.359) 50deg 70deg,
+    rgba(0, 0, 0, 0.359) 90deg 90deg),
+    url(nursing/logo.jfif);
+    background-position: center;
+    color:white;
+    background-size: cover;
+    align-items: center;
+    padding:10px;
+    font-weight: 600;
+
+flex-wrap: wrap;
+
+    justify-content: space-evenly;
+}
+#links{
+    color:white;
+}
+
+.ul{
+    position: relative;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    flex-wrap: wrap;
+    width:90%;
+    letter-spacing: 2px;
+    flex-direction: row;
+    justify-content:left;
+    text-align: left;
+}
+.serv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding:20px;
+}
+li{
+    position: relative;
+    width:30%;
+    display: flex;
+    list-style: none;
+    padding:5px;
+    background-color: rgba(255, 255, 255, 0.481);
+    align-items: center;
+    min-height: 130px;
+    margin:2px;
+    letter-spacing: 2px;
+    flex-direction: column;
+    justify-content:left;
+    text-align: center;
+}
+ .ul{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding-bottom: 100px;
+ }
+.ul .fa{
+    color:rgba(211, 211, 211, 0.867);
+    padding:10px;
+    font-size: 40px;
+    justify-content: center;
+
+}
+
+.flexsmall{
+    
+    backdrop-filter: blur(.8rem);
+    width:30%;
+    display: flex;
+    background:rgba(0, 0, 0, 0.893);
+    font-weight: 600;
+    color:white;
+    align-items: center;
+    justify-content: center;
+flex-wrap: wrap;
+
+    border-radius: 10px;
+}
+.flexlarge{
+
+    width:68%;
+    color:white;
+    font-weight: 600;
+    display: flex;
+    background:rgba(0, 0, 0, 0.901);
+    align-items: center;
+    height: 1000px;
+    justify-content: space-between;
+flex-wrap: wrap;
+
+    border-radius: 10px;
+    flex-direction: column;
+}
+.narrow{
+    transform: rotateY(15deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    letter-spacing: 2px;
+    align-items: center;
+    padding-top:20px;
+    font-size:60px;
+    
+}
+.shortheight{
+    height:400px;
+}
+.imgcard{
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    position: relative;
+    border-radius: 50px;
+}
+.rightslide{
+
+    height:100%;
+    overflow: hidden;
+    width: 50%;
+    min-width: 400px;
+}
+.menu-lista{
+    position:sticky;
+    top:200px;
+    display: flex;
+    align-items: center;
+    justify-content: center, space-around;
+    visibility: visible;
+    z-index: 1000000;
+    padding-bottom:20px;
+    flex-direction: column;
+    padding-top:50px;
+    width: 100%;
+    font-size: 20px;
+    opacity: 1;
+    height:500px;
+}
+.best{
+    display: flex;
+    font-weight: 900;
+    height: 100px;
+    align-items: center;
+    text-align: left;
+    font-size: 30px;
+}
+.reduced{
+    height: 300px;
+    display: flex;
+    padding: 20px;
+    margin-top: 100px;
+    padding-top:30px;
+    box-shadow: 0px 0px 10px grey;
+    border-radius:30px;
+
+
+}
+.withcard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    flex-direction: column;
+}
+.linked{
+    padding:10px;
+    border-radius:40px;
+    background:white;
+    transition:all .5s ease-in-out;
+    color:black;
+}
+.div,.apply,.writeupb,.s1,.getstart{
+    transition: all .5s ease-in-out;
+
+}
+    .div:hover,.apply:hover,.writeupb:hover,.s1:hover,.getstart:hover{
+    color:black;
+    padding-left:20px;
+    box-shadow:
+    inset 100px 0px 20px rgb(164, 255, 255),
+    inset 120px 0px 40px rgb(255, 207, 255),
+    inset 150px 0px 20px white;
+
+
+}
+
+ title{
+    visibility: hidden;
+    display: none;
+}
+
+#frames{
+    width:100%;
+    height:900px;
+}
+.strict{
+    display:flex;
+    flex-direction: row;
+}
+
+.menu-btn{
+    display: none;
+    border-radius: 20px;
+    color:white;
+    border:1px solid grey;
+}
+.menu-list{
+    display: flex;
+    width: 100%;
+    transition:all .5s ease-in;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    visibility: hidden;
+    opacity: 0;
+    background:linear-gradient(white,lime);
+    height: 0;
+}
+
+    .div{
+    color:white;
+    padding:10px;
+
+    transition: all .5s ease-in-out;
+    box-shadow:
+    inset 0px 0px 0px rgb(164, 255, 255),
+    inset 0px 0px 0px rgb(255, 207, 255)
+    inset 0px 0px 0px white;
+    border-bottom:1px dashed white;
+}
+.alink{
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+#c1{
+    background:transparent;
+    box-shadow: 
+    inset 0px 0px 20px rgb(255, 255, 255),
+    0px 0px 50px rgba(0, 0, 0, 0.118);
+    backdrop-filter: blur(1rem);
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.lengthen{
+    width:80%;
+    font-size:20px;
+}
+#c2{background:white;}
+ .long{
+    width:200px;
+    height: fit-content;
+    border-radius:20px;
+    background:rgba(69, 209, 255, 0.873);
+    color:white;
+    padding:10px
+ }
+
+
+.services{
+    height:800px;
+    display: flex;
+    padding:20px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.atxt{
+
+    font-size: 30px;
+    align-items: left;
+    padding-bottom:20px;
+    width:300px;
+}
+#pica:hover{
+    transform: scale(1.1);
+}
+    #pica{
+    width: 100%;
+    height: 400px;
+    border-radius: 30px;
+}
+.stack{
+    position: relative;
+    display: flex;
+
+    align-items: center;
+}
+.pushed{
+    position: relative;
+    margin-top:300px;
+}
+
+#t1{
+    background:linear-gradient(white,grey);
+    height:400px;
+    border-radius:30px;
+    display: flex;
+    justify-content: center;
+    border:10px solid white;
+    box-shadow: 
+    0px 0px 3px rgb(205, 205, 205);
+    align-items: center;
+}
+
+
+.fit{
+    height: fit-content;
+    position: relative;
+    padding: 5px;
+    min-height: 400px;
+
+    left:100px;
+}
+.taller{
+    height: 1000px;
+}
+
+.longer{
+    height: 700px;
+    border-radius: 0px;
+}
+.writeupa{
+    font-weight: 900;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color:grey;
+    justify-content: center;
+    font-size: 60px;
+}
+.our{
+    display: flex;
+    background:whitesmoke;
+
+    flex-direction: column;
+}
+.detail{
+    margin-top:400px;
+    display: flex;
+    align-items: center;
+    border-bottom:50px solid black;
+    border-top:50px solid black;
+    justify-content: center;
+    height:600px;
+
+}
+#outstand{
+    height: 350px;
+    align-self: center;
+
+    width: 400px;
+    margin-top:-140px;
+}
+.starts{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100px;
+background:whitesmoke;
+}
+ 
+
+.getstart{
+    width:200px;
+    padding:10px;
+    background:white;
+    border-radius: 50px;
+}
+.inform{
+    display: flex;
+    padding:20px;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:1000px;
+    text-align: center;
+    flex-direction: column;
+    background-image:repeating-conic-gradient(from 45deg,
+    rgba(245, 245, 245, 0.9) 50deg 70deg,
+    rgba(255, 255, 255, 0.9) 90deg 90deg),
+    url(nursing/logo.jfif);
+    background-size: cover,40% 30%;
+    background-position: center,center;
+    background-repeat: no-repeat;
+    background-attachment: fixed,fixed;
+
+}
+.writeupb{
+    width: 150px;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    color:grey;
+    background-color:whitesmoke;
+
+    text-align: center;
+}
+
+.anew{
+    color:rgb(51, 101, 51);
+    font-size: 50px;
+    padding:20px;
+    padding-top: 100px;
+    ;
+}
+.bnew{
+    color:green;
+    letter-spacing: 2px;
+}
+.served1,.served{
+    width:49%;
+    border-radius: 30px;
+    border:30px solid white;
+    overflow: hidden;
+    background:white;
+    height: 700px;
+    box-shadow: 0px 0px 10px rgba(0, 135, 0, 0.414)
+
+}
+.picture{height:60%;
+    overflow: hidden;
+    border-radius: 30px;
+    background-attachment: fixed;
+
+}
+
+.writeup{height:40%;
+display: flex;
+padding:20px;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+#t2{
+    background:linear-gradient(black,purple);
+}
+.moves{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+.backbox
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    flex-direction: row;
+}
+.firsts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    flex-direction: column;
+
+    margin:10px;
+
+}
+
+.info{flex-direction: column;}
+#pica{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (max-width:850px){
+    .fa{
+        font-size: 80px;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        width:unset;
+
+    }
+    .narrow{
+        font-size:90px;
+    }
+    .inithead,.anew{
+        font-size: 60px;
+    }
+   .tiny{
+    font-size: 30px;
+   }
+    .mains{
+        display: flex;
+        flex-direction: column;
+
+        flex-wrap:wrap;
+        align-items: center;
+    }
+    div,.txt,a{
+        font-size: 30px;
+    }
+    #cruela{
+        border-radius: 300px;
+        height: 400px;
+        width: 400px;
+        border:3px solid green;
+    }
+ .withcard{
+    padding:50px;
+    height: fit-content;
+ }
+.imgslide{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+        width:100%;
+        padding:0px;
+        margin:0px;
+        flex-wrap: wrap;
+        height: fit-content;
+
+}
+.detail{
+    border:0px solid transparent;
+}
+
+
+.ourserve{
+    display: flex;
+        width:unset;
+}
+.leftslide,.rightslide{
+    width:unset;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+    flex-wrap: wrap;
+    
+}
+.service{
+    width:unset;
+}
+ 
+.header{
+    width:unset;
+
+    margin:0px;
+    display:inline-flex;
+    width:100%;
+    align-items: center ;
+    justify-content: space-between;
+    position: relative;
+    flex-direction: row;
+    height: fit-content;
+    width:max-content;
+}
+.picside{
+    width:unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.picside img{
+    height: 150px;
+    width:300px;
+
+}
+
+.menu-btn{
+    display: flex;
+    height: 130px;
+    width: 150px;
+    color:grey;
+    visibility: visible;
+    opacity: 1;
+    align-items: center;
+    justify-content: center;
+    padding-right:10px;
+    padding-left: 10px;
+}
+.menu-lista{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: visible;
+    font-size: 20px;
+    padding-bottom:100px;
+    flex-direction: column;
+    padding-top:100px;
+    width: 100%;
+    background:linear-gradient(white,lime);
+
+    opacity: 1;
+    height: 550px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.374);
+}
+
+.head{
+    display: flex;
+font-size:40px;
+font-weight: 600;
+height:80px;
+margin-top:20px;
+align-items: center;
+width:250px;
+
+
+}
+.served{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;}
+
+#frames{
+    width: 100%;
+}
+.reduced{
+    overflow: hidden;
+    justify-content: left;
+}
+.lengthen{
+    width:unset;
+}
+.fram{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.info,.scrollani,.stack{
+    flex-direction: column;
+    width:unset;
+    flex-wrap: wrap;
+}
+.widthcard{
+    margin:0px;
+    width:90%;
+    left:0px;
+
+}
+#c1,.fit,.leftside.reduced{
+    width:unset;
+    height: fit-content;
+    margin:0px;
+
+    left:0px;
+}
+.moves{
+    width: 80%;
+  
+}
+#outstand{
+    height: 400px;
+    width: 400px;
+    border:3px solid green;
+    margin-left: 0px;
+    border-radius: 300px;
+    align-self: center;
+}
+summary::marker{
+
+    color:lime;
+}
+ 
+    details{
+    overflow-y: scroll;
+    max-height: 400px;
+    width: 100%;
+}
+.menus{display: none;}
+ 
+ .foot{
+    width:unset;
+    display: flex;
+     padding:0px;
+     width:100%;
+     position: relative;
+     bottom:0;
+     flex-direction: column;
+     align-items: center;
+     background-image:repeating-conic-gradient(from 45deg,
+     rgba(0, 0, 0, 0.359) 50deg 70deg,
+     rgba(0, 0, 0, 0.359) 90deg 90deg),
+     url(nursing/logo.jfif);
+ }
+ .flexlarge{
+     display: flex;
+     width:unset;
+     align-items: center;
+     height: fit-content
+ }
+ .flexsmall,.taller{
+    display: flex;
+    width:unset;
+    align-items: center;
+    height: fit-content;
+ }
+ .div{width:100%}
+ .sons,.alink,.achild,.bchild{
+     display: flex;
+     flex-direction: column;
+     width:unset;
+     transition: all .5s ease-in-out;
+     flex-wrap: wrap;
+ }
+}
